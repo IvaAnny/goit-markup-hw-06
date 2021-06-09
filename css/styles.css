@@ -756,6 +756,7 @@ padding-left: 30px;
 
 /*back-drop*/
 
+
 .back-drop {
   position: fixed;
   width: 100vw;
@@ -931,4 +932,4 @@ color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;}
 
-   
+   .policy{ margin-left: 15px;}
