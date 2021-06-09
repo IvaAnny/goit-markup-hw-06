@@ -732,6 +732,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+padding: 40px;
 }
 .modal-close{
   position: absolute;
@@ -751,4 +752,88 @@ cursor: pointer;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-close:hover .modal-close-button{
+  fill: #2196F3;
+}
+
+.text-modal{font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+margin-bottom: 12px;}
+
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.user-coment{
+  height: 118px;
+  width: 100%;
+  margin-bottom: 23px;
+  outline: none;
+  resize: none;
+  padding: 12px 16px;
+}
+
+.user-coment::placeholder{
+  font-weight: normal;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-lab{
+  margin-bottom: 10px;
+}
+.user-data:required:focus:valid:not(:placeholder-shown){border-color: green;}
+
+.user-data:required:focus:invalid:not(:placeholder-shown){border-color: red;}
+
+.user-data{
+  outline: none;
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+padding-left: 42px;
+}
+ .modal-lab:hover .modal-svg{
+   fill: #2196F3;
+ }
+.modal-svg-div{
+  display: block;
+  position: relative;
+}
+ .modal-svg{
+   position: absolute;
+   top: 50%;
+   left: 15px;
+   transform: translateY(-50%);
+ }
+
+.user-data:hover,
+.user-data:focus{
+  border: 1px solid #2196F3;
+}
+
+.user-coment:hover,
+.user-coment:focus{border: 1px solid #2196F3;}
+
+.policy::before{
+  content: "";
+  display: block;
+  width: 16px;
+height: 15px;
+background: #2196F3;
+border-radius: 2px;
 }
