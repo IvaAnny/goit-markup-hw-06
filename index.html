@@ -272,14 +272,14 @@
             <div class="footer-dive-form">
                 <form action="#" name="subscription" class="footer-fom">
                     <p class="subscription">Подпишитесь на рассылку</p>
-                    <label for="" class="footer-label" >
+                    <span class="footer-label">
                     <input type="email" class="client-mail" placeholder="E-mail">
                     <button type="submit" class="footer-submit-button">Подписаться
                         <svg width="24" height="24" class="icon-sumbit-mail">
                             <use href="./images/sumbitmail.svg#icon-iconsendmail"></use>
                         </svg>
                     </button>
-                </label>
+                </span>
                 </form>
             </div>
         </div>
@@ -320,10 +320,12 @@
                 <label for=""> Коментарий
                     <textarea name="user-message" class="user-coment" placeholder="Введите текст"></textarea>
                 </label>
+                <span class="checkbox-span">
                 <input type="checkbox" class="check-box visually-hidden" id="checkbox-policy" name="user-policy" required>
                 <label for="checkbox-policy" class="policy">Соглашаюсь с рассылкой и принимаю <a href="" class=" policy-link"> Условия договора </a></label>
+            </span>
                 <button type="submit" class="submit-button"> Отправить</button>
-            </form>
+            </form> 
         </div>
     </div>
     <script src="./js/modal.js"></script>
