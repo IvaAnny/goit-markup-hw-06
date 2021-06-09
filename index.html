@@ -265,13 +265,27 @@
                             </svg> </a></li>
                 </ul>
             </div>
-
             </address>
-            <div class="footer-dive">
-                <form action="#" name="subscription"></form>
+
+
+            
+            <div class="footer-dive-form">
+                <form action="#" name="subscription" class="footer-fom">
+                    <p class="subscription">Подпишитесь на рассылку</p>
+                    <label for="" class="footer-label" >
+                    <input type="email" class="client-mail" placeholder="E-mail">
+                    <button type="submit" class="footer-submit-button">Подписаться
+                        <svg width="24" height="24" class="icon-sumbit-mail">
+                            <use href="./images/sumbitmail.svg#icon-iconsendmail"></use>
+                        </svg>
+                    </button>
+                </label>
+                </form>
             </div>
         </div>
     </footer>
+
+
     <div class="back-drop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
@@ -306,9 +320,9 @@
                 <label for=""> Коментарий
                     <textarea name="user-message" class="user-coment" placeholder="Введите текст"></textarea>
                 </label>
-                <input type="checkbox" class="check-box" id="checkbox-policy" name="user-policy" required>
-                <label for="checkbox-policy" class="policy">Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора </a></label>
-                <button type="submit"> Отправить</button>
+                <input type="checkbox" class="check-box visually-hidden" id="checkbox-policy" name="user-policy" required>
+                <label for="checkbox-policy" class="policy">Соглашаюсь с рассылкой и принимаю <a href="" class=" policy-link"> Условия договора </a></label>
+                <button type="submit" class="submit-button"> Отправить</button>
             </form>
         </div>
     </div>
