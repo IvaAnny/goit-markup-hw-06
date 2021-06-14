@@ -1,0 +1,23 @@
+/*utils*/ 
+
+@import "./utils/_variabls";
+@import "./utils/visuallly-hidden";
+
+
+/*base*/ 
+
+@import "./base/base";
+@import "./base/section";
+
+/*components*/ 
+
+@import "./components/title";
+@import "./components/text";
+@import "./components/social-list";
+
+/*loyaut*/ 
+
+@import "./loyaut/header";
+@import "./loyaut/footer";
+@import "./loyaut/title-section";
+

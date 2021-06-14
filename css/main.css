@@ -1,0 +1,138 @@
+/*utils*/
+:root {
+  --logo-color: #2196f3;
+  --title-color: #212121;
+  --title-sektion-color: #2f303a;
+  --adress-color: #ffffff;
+  --team-color: #f5f4fa;
+  --logo-font: Raleway, sans-serif;
+  --conact-color: rgba(255, 255, 255, 0.6);
+  --button: #188ce8;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/*base*/
+.description {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link {
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
+  color: #757575;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--logo-color);
+}
+
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.web-link {
+  display: block;
+}
+
+/*components*/
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mini-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.mini-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.mini-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mini-link:hover .icon {
+  fill: var(--adress-color);
+}
+
+.mini-lin {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.mini-link:hover {
+  background-color: var(--logo-color);
+}
+/*# sourceMappingURL=main.css.map */
