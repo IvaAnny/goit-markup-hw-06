@@ -1,5 +1,5 @@
 
-/* heder */
+/* heder 
 .li{position: relative;
 }
 .li::before{
@@ -112,7 +112,7 @@ nav {
 }
 .li {
   color: var(--logo-color);
-}
+}*/
 
 /*title section*/
 .title-section {
