@@ -97,11 +97,13 @@ nav {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-}
-.header-link:focus,
-.header-link:hover {
+
+  &:focus,
+&:hover {
   color: var(--logo-color);
 }
+}
+
 .header-links {
   font-weight: 500;
   font-size: 14px;
